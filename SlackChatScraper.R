@@ -50,5 +50,10 @@ fivethirtyeight_slack_pages <- fivethirtyeight_slack_pages %>%
   mutate(slack_chats = map(links, get_slackchats)) %>% 
   unnest(slack_chats)
  
+# Taking a look at the data
+
+fivethirtyeight_slack_pages %>% 
+  view()
+
 
 
