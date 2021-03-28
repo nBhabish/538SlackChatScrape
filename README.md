@@ -4,3 +4,4 @@
 
 - This repository contains R script that scrapes FiveThirtyEight's staff's Slack chat log in a neat dataframe.
 
+Project Status: Complete
